@@ -4,7 +4,7 @@
   "description": "Udemy Advanced CSS and Sass course.  Natours project.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "sass --watch sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "sass": "^1.58.3"
   }
 }
