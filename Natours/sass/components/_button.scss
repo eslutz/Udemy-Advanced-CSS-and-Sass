@@ -12,7 +12,7 @@
 
     &:hover {
         transform: translateY(-.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        box-shadow: $box-shadow-sm;
 
         &::after {
             transform: scaleX(1.6) scaleY(2);
@@ -22,7 +22,7 @@
 
     &:active {
         transform: translate(.1rem);
-        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+        box-shadow: $box-shadow-xs;
     }
 
     &::after {
@@ -47,6 +47,15 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after{
+            background-color: $color-primary;
+        }
+    }
+
     &--animated {
         animation: moveInBottom .75s ease-out .75s;
         animation-fill-mode: backwards;
@@ -68,12 +77,12 @@
     &:hover {
         background-color: $color-primary;
         color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        box-shadow: $box-shadow-sm;
         transform: translateY(-.25rem);
     }
 
     &:active {
-        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+        box-shadow: $box-shadow-xs;
         transform: translateY(0);
 
     }
