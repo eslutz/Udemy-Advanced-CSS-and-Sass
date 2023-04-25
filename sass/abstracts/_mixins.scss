@@ -10,3 +10,10 @@
 	border-top: .1rem solid $color-grey-dark-1;
 	padding-top: 2rem;
 }
+
+@mixin absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
