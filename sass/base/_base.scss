@@ -8,4 +8,25 @@
 
 html {
     font-size: 62.5%;
+
+    @include respond(big-desktop) {
+        font-size: 75%;
+    }
+
+    @include respond(tablet-landscape) {
+        font-size: 56.25%;
+    }
+
+    @include respond(tablet-portrait) {
+        font-size: 50%;
+    }
+}
+
+body {
+    padding: 3rem;
+    box-sizing: border-box;
+
+    @include respond(tablet-portrait) {
+        padding: 0;
+    }
 }

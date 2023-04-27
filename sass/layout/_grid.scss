@@ -5,6 +5,15 @@
 
 	&:not(:last-child) {
 		margin-bottom: $grid-gutter-vertical;
+
+		@include respond(tablet-portrait) {
+			margin-bottom: $grid-gutter-vertical-sm;
+		}
+	}
+
+	@include respond(tablet-portrait) {
+		max-width: 50rem;
+		padding: 0 3rem;
 	}
 
 	[class^="col-"] {
@@ -12,6 +21,15 @@
 
 		&:not(:last-child) {
 			margin-right: $grid-gutter-horizontal;
+
+			@include respond(tablet-portrait) {
+				margin-right: 0;
+				margin-bottom: $grid-gutter-vertical-sm;
+			}
+		}
+
+		@include respond(tablet-portrait) {
+			width: 100% !important;
 		}
 	}
 

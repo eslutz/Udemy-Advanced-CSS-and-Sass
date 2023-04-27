@@ -5,7 +5,11 @@
 	text-align: center;
 	border-radius: .3rem;
 	box-shadow: $box-shadow-med;
-	transition: all .3s ;
+	transition: all .3s;
+
+	@include respond(tablet-portrait) {
+        padding: 2rem;
+    }
 
 	&__icon {
 		font-size: 6rem;
@@ -14,6 +18,10 @@
 		background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     	background-clip: text;
     	color: transparent;
+
+		@include respond(tablet-portrait) {
+            margin-bottom: 0;
+        }
 	}
 
 	&__text {
