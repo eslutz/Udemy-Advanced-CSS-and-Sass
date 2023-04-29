@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass.git"
+    "url": "https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass--Natours-Project.git"
   },
   "author": "Eric Slutz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass/issues"
+    "url": "https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass--Natours-Project/issues"
   },
-  "homepage": "https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass#readme",
+  "homepage": "https://github.com/eslutz/Udemy-Advanced-CSS-and-Sass--Natours-Project#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "concat": "^1.0.3",
